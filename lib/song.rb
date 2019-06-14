@@ -35,7 +35,7 @@ class Song
       else
         hash[name] = 1
       end
-        binding.pry
+        # binding.pry
     end
   end
 
