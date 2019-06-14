@@ -29,13 +29,14 @@ class Song
 
   def self.genre_count
     hash = {}
-    binding.pry
+  
     @@genres.each do |name|
       if hash(name)
         hash(name) += 1
       else
         hash(name) = 1
       end
+        binding.pry
     end
   end
 
