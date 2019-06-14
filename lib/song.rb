@@ -27,14 +27,14 @@ class Song
   end
 
   def self.genre_count
-    # hash = {}
-    # @@genres.each do |name|
-    #   if hash(name) == name
-    #     hash(name) +=1
-    #   else
-    #     hash(name) = 1
-    #   end
-    # end
+    hash = {}
+    @@genres.each do |name|
+      if hash(name) == name
+        hash(name) +=1
+      else
+        hash(name) = 1
+      end
+    end
   end
 
   def self.artist_count
