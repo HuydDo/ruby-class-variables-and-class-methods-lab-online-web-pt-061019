@@ -18,6 +18,7 @@ class Song
 
   def self.genres
     if !@@genres.include?(genre)
+    end
   end
 
   def self.artists
