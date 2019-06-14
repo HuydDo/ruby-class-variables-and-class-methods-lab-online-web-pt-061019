@@ -31,11 +31,11 @@ class Song
     hash = {}
     binding.pry
     @@genres.each do |name|
-      # if hash(name) == :name
-      #   hash(name) += 1
-      # else
-      #   hash(name) = 1
-      # end
+      if hash(name) 
+        hash(name) += 1
+      else
+        hash(name) = 1
+      end
     end
   end
 
