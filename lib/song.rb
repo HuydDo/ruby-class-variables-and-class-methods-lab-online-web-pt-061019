@@ -32,9 +32,9 @@ class Song
 
     @@genres.each do |name|
       if hash(name)
-        hash(name) += 1
+        hash[name] += 1
       else
-        hash(name) = 1
+        hash[name] = 1
       end
         binding.pry
     end
